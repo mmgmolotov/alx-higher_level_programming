@@ -1,13 +1,9 @@
 #!/usr/bin/node
-
-// Script to print ints passed as arguments to the script.
-
-const myArg = process.argv[2];
-
-if (isNaN(Number(myArg))) {
-  console.log('Missing number of occurences');
+const x = process.argv[2];
+if (isNaN(x)) {
+  console.log('Missing number of occurrences');
 } else {
-  for (let i = 0; i < myArg; i++) {
+  for (let i = 0; i < x; i++) {
     console.log('C is fun');
   }
 }
