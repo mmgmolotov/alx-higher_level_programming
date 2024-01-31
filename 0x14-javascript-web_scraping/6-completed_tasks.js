@@ -23,4 +23,4 @@ request(url, function (err, response, body) {
   } else {
     console.log('An error occured. Status code: ' + response.statusCode);
   }
-})
+});
